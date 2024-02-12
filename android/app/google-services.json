@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "990581917721",
+    "project_id": "kotha-barta-a5ca2",
+    "storage_bucket": "kotha-barta-a5ca2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990581917721:android:faf9a0d1e8eed6770e0288",
+        "android_client_info": {
+          "package_name": "com.example.kotha_barta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApDqhSUEZamXBuZwTPj2L7fUE0uQS3O-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

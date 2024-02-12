@@ -1,0 +1,80 @@
+name: kotha_barta
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^4.15.3
+  firebase_auth: ^4.17.3
+  firebase_core: ^2.25.3
+  flutter:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.13.1
+  provider: ^6.1.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/icon.png"
+
+  
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.25.2
+  get: ^4.6.6
+
+  # screen resizing
+  flutter_screenutil: ^5.9.0
+  cloud_firestore: ^4.15.3
+  intl: ^0.19.0
+  cookie_jar: ^4.0.8
+  dio: ^5.4.0
+  dio_cookie_manager: ^3.1.1
+  flutter_easyloading: ^3.0.5
+  crypto: ^3.0.3
+  cached_network_image: ^3.3.1
+  fluttertoast: ^8.2.4
+  shared_preferences: ^2.2.2
+  package_info: ^2.0.2
+  dots_indicator: ^3.0.0
+  firebase_auth: ^4.17.3
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+
+# To add assets to your application, add on assets section, like this:
+assets:
+  - images/
+
+fonts:
+  - family: Avenir
+    fonts:
+      - asset: assets/fonts/Avenir-Book.ttf
+        weight: 400 # normal
+  - family: Montserrat
+    fonts:
+      - asset: assets/fonts/Montserrat-Medium.ttf
+        weight: 500
+      - asset: assets/fonts/Montserrat-SemiBold.ttf
+        weight: 600
+  - family: Iconfont
+    fonts:
+      - asset: assets/fonts/iconfont.ttf
+
